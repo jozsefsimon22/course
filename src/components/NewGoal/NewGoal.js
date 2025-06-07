@@ -25,7 +25,7 @@ function NewGoal(props){
     return(
         <form className='new-goal' onSubmit={addGoalHandler}>
             <input type="text" value={enteredText} onChange={textChangeHandler}/>
-            <button type="submit">Add Goal</button>
+            <button type="submit">Add New Goal</button>
         </form>
     )
 }
